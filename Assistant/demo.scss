@@ -1,0 +1,112 @@
+.assistant {
+  height: 100%;
+  width:100%;
+  border: 1px solid #f8f8f8;  
+  h3{
+    text-align: left;
+    margin: 20px 0 0 20px;
+  } 
+  .collapse{
+    border-bottom:1px solid #ccc;
+    padding: 10px; 
+  }
+  .collapse-header{
+    height: 38px;
+    dl{
+      margin: 0 10px;
+      .arrow{
+        float: left;
+        height: 20px;
+        width: 20px;
+        margin-top: 5px;
+        margin-right: 10px;
+        i{
+          float: left;
+          height: 20px;
+          width: 20px;
+          line-height: 20px;
+          text-align: center;
+          border: 1px solid #ccc;
+          border-radius: 3px;
+          font:20px;
+          color: #ccc;
+        }
+        
+      }
+      dt{
+        width: 35px;
+        height: 35px;
+        float: left;
+        margin-right:10px;
+        i{
+          width: 35px;
+          height: 35px;
+          float: left;
+          background: #f9b85a;
+          color:#fff;
+          font-size: 18px;
+          text-align: center;
+          line-height: 35px;
+        }
+        .star{
+          background: #f88b64;
+          color:#fff; 
+        }
+      }
+      .ant-col-16{
+        line-height: 16px;
+        text-align:left;
+      }
+      
+    }
+  }
+  .createIcon{
+    width: 60px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    float: right;
+    margin-right:20px; 
+    em{
+      height: 29px;
+      width:29px;
+      float: left;
+      i{
+        font-size: 20px;
+        line-height: 30px;
+        float: left;
+        width: 29px;
+        text-align: center;
+      }
+    }
+    .leftIcon{
+      border-right:1px solid #ccc; 
+    }
+  }
+  .collapse-content{
+    .ant-row{
+      text-align: left;  
+      a{
+        line-height: 16px;
+        padding-left:40px; 
+      } 
+      p{
+        line-height: 16px;
+        padding-left:40px;
+        a{
+          padding: 0;
+        }
+      }
+    }
+    .Btn{
+      margin: 10px 40px 0;
+      height: 30px;
+      .ant-col-8{
+        margin-right: 10px;
+        height: 30px;
+      }
+      button{
+        width: 100%;
+      }
+    }
+  }
+}
